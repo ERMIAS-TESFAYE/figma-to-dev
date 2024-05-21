@@ -1,0 +1,46 @@
+header {
+  padding: 20px;
+  margin: 0;
+}
+
+.hero {
+  margin-bottom: 36px;
+}
+
+.works > p {
+  max-width: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.works-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.works-flex div img {
+  width: 100%;
+  /* display: block; */
+}
+
+.img {
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .works-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .works-flex div img {
+    /* width: 50%; */
+  }
+  .img {
+    object-fit: cover;
+    width: 200pxp;
+    height: 200px;
+  }
+}

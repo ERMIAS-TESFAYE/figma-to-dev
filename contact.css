@@ -1,0 +1,63 @@
+.address {
+    margin-top: 16px;
+}
+
+.contact {
+    margin-top: 32px;
+}
+
+.contact >  p{
+text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #eee;
+  padding: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+.map > img {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width:992px) {
+    .address {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 90px;
+    }
+
+    form {
+        width: 48%;
+    }
+    
+
+    .map {
+
+        width: 50%;
+
+    }
+}
+
